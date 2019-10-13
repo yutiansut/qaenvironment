@@ -10,8 +10,10 @@ quantaxis environment
 
 ## 使用
 
-from qaenvironment import mongo_ip, mongo_uri, eventmq_ip, eventmq_port, eventmq_user, eventmq_password, eventmq_amqp
+```python
 
+from qaenvironment import mongo_ip, mongo_uri, eventmq_ip, eventmq_port, eventmq_user, eventmq_password, eventmq_amqp
+```
 
 
 ## 配置
