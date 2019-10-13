@@ -12,7 +12,7 @@ quantaxis environment
 
 ```python
 
-from qaenvironment import mongo_ip, mongo_uri, eventmq_ip, eventmq_port, eventmq_user, eventmq_password, eventmq_amqp
+from qaenv import mongo_ip, mongo_uri, eventmq_ip, eventmq_port, eventmq_user, eventmq_password, eventmq_amqp
 ```
 
 
