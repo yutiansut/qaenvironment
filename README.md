@@ -7,9 +7,16 @@ quantaxis environment
 
 ==========================================================================
 
-OS Env
 
-## 数据库部分:
+## 使用
+
+from qaenvironment import mongo_ip, mongo_uri, eventmq_ip, eventmq_port, eventmq_user, eventmq_password, eventmq_amqp
+
+
+
+## 配置
+
+### 数据库部分:
 
 
 - MONGODB = mgdb(mgdb 是docker内部的容器识别号) / 192.168.x.x
@@ -17,8 +24,7 @@ OS Env
 - MONGODB_PORT 一般没人用
 
 
-
-## 消息队列部分
+### 消息队列部分
 
 - QAPUBSUB_IP=qaeventmq
 - EventMQ_IP=qaeventmq
