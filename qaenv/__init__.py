@@ -2,11 +2,11 @@ import os
 
 
 __author__ = 'yutiansut'
-__version__ = '0.0.2'
+__version__ = '0.0.3'
 
 
 mongo_ip = os.getenv('MONGODB', '127.0.0.1')
-mongo_port = 27017
+mongo_port =  os.getenv('MONGODBPORT', 27017)
 mongo_uri = 'mongodb://{}:{}'.format(mongo_ip, mongo_port)
 
 

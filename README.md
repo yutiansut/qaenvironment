@@ -23,7 +23,7 @@ from qaenv import mongo_ip, mongo_uri, eventmq_ip, eventmq_port, eventmq_user, e
 
 - MONGODB = mgdb(mgdb 是docker内部的容器识别号) / 192.168.x.x
 
-- MONGODB_PORT 一般没人用
+- MONGODBPORT = 27017
 
 
 ### 消息队列部分
