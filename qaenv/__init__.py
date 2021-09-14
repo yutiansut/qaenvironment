@@ -2,7 +2,7 @@ import os
 
 
 __author__ = 'yutiansut'
-__version__ = '0.0.3'
+__version__ = '0.0.4'
 
 
 mongo_ip = os.getenv('MONGODB', '127.0.0.1')
@@ -20,5 +20,8 @@ eventmq_amqp = 'pyamqp://{}:{}@{}:{}//'.format(
 
 
 clickhouse_ip =  os.getenv('CLICKHOUSE_IP', '127.0.0.1')
+clickhouse_port =  os.getenv('CLICKHOUSE_PORT', 9001)
+clickhouse_user =  os.getenv('CLICKHOUSE_USER', 'admin')
+clickhouse_password =  os.getenv('CLICKHOUSE_PASSWORD', 'admin')
 
 redis_ip = os.getenv('REDIS_IP', '127.0.0.1')
