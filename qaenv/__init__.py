@@ -20,7 +20,7 @@ eventmq_amqp = 'pyamqp://{}:{}@{}:{}//'.format(
 
 
 clickhouse_ip =  os.getenv('CLICKHOUSE_IP', '127.0.0.1')
-clickhouse_port =  os.getenv('CLICKHOUSE_PORT', 9001)
+clickhouse_port =  os.getenv('CLICKHOUSE_PORT', 9000)
 clickhouse_user =  os.getenv('CLICKHOUSE_USER', 'admin')
 clickhouse_password =  os.getenv('CLICKHOUSE_PASSWORD', 'admin')
 
