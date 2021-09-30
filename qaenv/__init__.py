@@ -2,7 +2,7 @@ import os
 
 
 __author__ = 'yutiansut'
-__version__ = '0.0.4'
+__version__ = '0.0.5'
 
 
 mongo_ip = os.getenv('MONGODB', '127.0.0.1')
